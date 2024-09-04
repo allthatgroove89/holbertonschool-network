@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # Shows attached IPs
-hostname -I | tr ' ' '\n' | sed '/^$/d' | sed 's/$/$/'
+hostname -I | tr ' ' '\n' | sed '/^$/d'
